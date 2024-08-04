@@ -1,0 +1,32 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.content {
+	background-color: #ccc;
+	border-radius: 8px;
+	padding: 1.5rem;
+	width: fit-content;
+	width: 450px;
+}
+
+.form {
+	display: flex;
+	row-gap: 1rem;
+	flex-direction: column;
+}
+
+.form input {
+	padding: 0.75rem 1.5rem;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+}
+
+.form button {
+	width: 50%;
+	margin-left: auto;
+}
